@@ -29,6 +29,6 @@ docker build -t cs250:latest .
 
 ### Run fuzzing container
 ```
-docker run --rm -it -v $(pwd)/binaries:/binaries cs250:latest
+docker run --rm -it -v $(pwd)/binaries:/binaries -v $(pwd)/persistent:/persistent cs250:latest
 ```
 
