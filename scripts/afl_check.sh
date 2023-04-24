@@ -3,7 +3,7 @@
 ROOT_DIR=/cb-multios
 PERSISTENT_ROOT=/persistent
 
-CHALLENGES_CLEAN=${ROOT_DIR}/binaries
+CHALLENGES_CLEAN=/binaries
 
 for CHALLENGE_DIR in ${CHALLENGES_CLEAN}/*; do
   CHALLENGE_NAME=`basename ${CHALLENGE_DIR}`
